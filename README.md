@@ -1,4 +1,4 @@
-# Caps Lock Overlay
+# Majuscule
 
 GNOME Shell extension for keyboards without a Caps Lock LED (e.g. ThinkPad X260).
 
@@ -13,15 +13,15 @@ keymap). Targets GNOME Shell 50.
 ## Install
 
 ```bash
-git clone https://github.com/Quezka/caps-overlay
-cd caps-overlay
+git clone https://github.com/Quezka/majuscule
+cd majuscule
 ./install.sh
 ```
 
 On Wayland, log out and back in once, then:
 
 ```bash
-gnome-extensions enable caps-overlay@quezka.uk
+gnome-extensions enable majuscule@quezka.uk
 ```
 
 ## Tests

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Symlink this checkout into the user's GNOME Shell extensions folder.
 set -euo pipefail
-UUID="caps-overlay@quezka.uk"
+UUID="majuscule@quezka.uk"
 SRC="$(cd "$(dirname "$0")" && pwd)"
 DEST="$HOME/.local/share/gnome-shell/extensions/$UUID"
 mkdir -p "$(dirname "$DEST")"

@@ -6,7 +6,7 @@ import {KeymapSource} from './lib/keymapSource.js';
 import {Overlay} from './lib/overlay.js';
 import {CapsIndicator} from './lib/indicator.js';
 
-export default class CapsOverlayExtension extends Extension {
+export default class MajusculeExtension extends Extension {
     enable() {
         this._state = new CapsState();
         this._overlay = new Overlay();
