@@ -1,0 +1,27 @@
+.caps-overlay {
+  background-color: #000000;
+  color: #ffffff;
+  border: 3px solid #ffffff;
+  border-radius: 18px;
+  padding: 22px 36px;
+  spacing: 20px;
+}
+.caps-overlay:on { border-color: #ffd60a; }
+.caps-overlay:on .caps-overlay-label,
+.caps-overlay:on .caps-overlay-icon { color: #ffd60a; }
+
+.caps-overlay-icon { icon-size: 48px; color: #ffffff; }
+.caps-overlay-label {
+  font-size: 36px;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+.caps-indicator-label {
+  font-weight: 900;
+  font-size: 15px;
+  color: #000000;
+  background-color: #ffd60a;
+  border-radius: 5px;
+  padding: 0 7px;
+}

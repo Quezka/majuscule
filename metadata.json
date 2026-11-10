@@ -1,0 +1,8 @@
+{
+  "uuid": "caps-overlay@quezka.uk",
+  "name": "Caps Lock Overlay",
+  "description": "Big, high-contrast on-screen notice when Caps Lock turns on or off, plus a top-bar indicator while it is on. For keyboards without a Caps Lock LED (e.g. ThinkPad X260).",
+  "shell-version": ["50"],
+  "url": "https://github.com/Quezka/caps-overlay",
+  "version-name": "0.1.0"
+}
