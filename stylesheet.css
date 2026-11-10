@@ -1,21 +1,18 @@
-/* Suite dark palette: raised surface, soft border, OS accent colour when on. */
+/* Android-style toast: opaque dark rounded box, accent border, icon + one line of text. */
 .majuscule {
-  background-color: rgba(32, 34, 38, 0.94);
-  color: #ecedef;
-  border: 1px solid #2a2c31;
-  border-radius: 14px;
-  padding: 12px 22px;
-  spacing: 12px;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.35);
+  background-color: #323236;
+  color: #f2f2f4;
+  border: 2px solid -st-accent-color;
+  border-radius: 12px;
+  spacing: 10px;
+  padding: 10px 20px;
+  margin-bottom: 56px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
 }
-.majuscule:on { border-color: -st-accent-color; }
-.majuscule:on .majuscule-icon { color: -st-accent-color; }
-
-.majuscule-icon { icon-size: 24px; color: #ecedef; }
+.majuscule-icon { icon-size: 18px; color: #f2f2f4; }
 .majuscule-label {
-  font-size: 20px;
-  font-weight: 700;
-  color: #ecedef;
+  font-size: 15px;
+  font-weight: 400;
 }
 
 .caps-indicator-label {
