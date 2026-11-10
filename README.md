@@ -2,9 +2,9 @@
 
 GNOME Shell extension for keyboards without a Caps Lock LED (e.g. ThinkPad X260).
 
-- When Caps Lock turns on or off, a large, high-contrast notice appears near the
+- When Caps Lock turns on or off, a compact dark notice appears near the
   bottom of the primary monitor for about 1.2 seconds.
-- While Caps Lock is on, a yellow **A** badge stays in the top bar.
+- While Caps Lock is on, an **A** badge in the system accent colour stays in the top bar.
 - Nothing is shown at login; only real changes trigger the notice.
 
 Works on Wayland and X11 (it runs inside GNOME Shell and reads the compositor
